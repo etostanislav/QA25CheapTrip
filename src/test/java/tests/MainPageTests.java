@@ -15,7 +15,7 @@ public class MainPageTests extends TestBase {
 
     @Test(priority = 2, groups = {"UI"})
     public void sloganValidationTest(){
-        String text = "CheapTrip. Pay less, travel more";
+        String text = "CheapTrip. Плати меньше, посети больше!";
         assert mainPage.isSloganContainsText(text);
 
     }

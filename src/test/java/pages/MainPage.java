@@ -33,7 +33,7 @@ public class MainPage extends PageBase {
 
     public void selectRussianLanguage() {
         selectLang.click();
-        waitUntilElementVisible(russianLang, 30);
+        waitUntilElementVisible(russianLang,  40);
         langList.get(1).click();
     }
 
